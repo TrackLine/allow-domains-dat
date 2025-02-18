@@ -25,13 +25,13 @@ jobs:
       - name: Checkout geosite
         uses: actions/checkout@v4
         with:
-          repository: unidcml/domain-list-community
+          repository: TrackLine/domain-list-community
           path: geosite
           
       - name: Checkout geoip
         uses: actions/checkout@v4
         with:
-          repository: unidcml/geoip
+          repository: TrackLine/geoip
           path: geoip
 
       - name: Set environment variables
